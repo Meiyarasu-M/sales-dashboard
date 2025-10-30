@@ -1,0 +1,78 @@
+body {
+  background-color: #0f1117;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Grid matrix layout for the dashboard */
+.dashboard-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 90vw; /* use viewport width to occupy ~90% of screen */
+  height: 90vh; /* occupy ~90% of viewport height */
+  max-width: none;
+  padding: 30px;
+  background: #12141c;
+  border-radius: 15px;
+  margin: 0; /* centered via body flexbox */
+  box-sizing: border-box;
+  overflow: auto; /* allow internal scrolling if content exceeds 90vh */
+
+  /* Hide native scrollbars but keep scrolling functional */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dashboard-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+/* Header section */
+.header {
+  text-align: left;
+}
+
+/* Metric cards grid */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Charts section */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Bottom grid (Top Products + Orders) */
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Card design */
+.card {
+  background: #1a1c24;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Chart placeholder */
+.chart-placeholder {
+  background: #23252f;
+  height: 250px;
+  margin-top: 15px;
+  border-radius: 8px;
+}

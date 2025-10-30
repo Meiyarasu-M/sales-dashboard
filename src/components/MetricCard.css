@@ -1,0 +1,26 @@
+.metric-card h3 {
+  color: #9aa0b2;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.metric-card h2 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.change {
+  color: #3be477;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.change span {
+  color: #9aa0b2;
+}
+
+.metric-card {
+  border: 1px solid #2b2d38;
+  border-radius: 8px;
+  padding: 16px;
+}

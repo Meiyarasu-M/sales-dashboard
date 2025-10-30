@@ -1,0 +1,23 @@
+.top-products ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.top-products li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #2b2d38;
+}
+
+.sales {
+  color: #9aa0b2;
+  font-size: 13px;
+}
+
+.top-products {
+  border: 1px solid #2b2d38;
+  border-radius: 8px;
+  padding: 16px;
+}

@@ -1,0 +1,22 @@
+.chart-card h3 {
+  margin: 0;
+}
+
+.chart-card p {
+  color: #9aa0b2;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.chart-container {
+  height: 250px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.chart-card {
+  border: 1px solid #2b2d38;
+  border-radius: 8px;
+  padding: 16px;
+}
